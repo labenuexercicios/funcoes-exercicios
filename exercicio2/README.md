@@ -8,3 +8,10 @@ b) Uma função que recebe 2 números e imprime um booleano que informa se o pri
 c) Uma função que receba um número e imprima se ele é par ou não
 
 d) Uma função que recebe uma mensagem (`string`) como parâmetro e imprima o tamanho dessa mensagem, juntamente com uma versão dela contendo apenas letras maiúsculas.
+
+
+function letras(strings) {
+    return (`${strings.length} ${strings.toUpperCase()}`)
+}
+
+console.log(letras('Leonardo'));
