@@ -14,18 +14,13 @@ imprimir("Isaias")
 
 console.log('==============================================')
 
-
 console.log('(B) - Declare uma função que imprima a tabuada do 6. Chame esta função')
-
-
-
 
 
 function tabuada(){
     for(let i = 0; i<=10; i++){
     console.log(`${6} X ${i} = ${6*i}`);
-    
-    
+      
 }
 }
 
@@ -51,9 +46,9 @@ console.log()
 const tab=()=>{
     for(let i = 0; i<=10; i++){
     console.log(`${6} X ${i} = ${6*i}`);
-    
-    
-}
+  
+    }
 }
 
 tab()
+
