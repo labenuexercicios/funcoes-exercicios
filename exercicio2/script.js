@@ -1,5 +1,5 @@
 //A
-
+//tentar refatorar depois com arrow function e deixar os codigos menores
 function soma (x,y){
     console.log(x+y)
       
