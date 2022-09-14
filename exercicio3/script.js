@@ -1,20 +1,9 @@
 function Sum(n1, n2) {
-    return `${n1} + ${n2} = ${n1 + n2}`
+    const soma = `${n1} + ${n2} = ${n1 + n2}`
+    const subs = `${n1} - ${n2} = ${n1 - n2}`
+    const mult = `${n1} x ${n2} = ${n1 * n2}`
+    const div = `${n1} / ${n2} = ${n1 / n2}`
+
+    return `Você escolheu os números ${n1} e ${n2}. Sua SOMA é ${soma}, sua SUBTRAÇÃO é ${subs}, sua MULTIPLICAÇÃO é ${mult} e sua DIVISÃO é ${div}`
 }
-//////////////////////////////////////////
-console.log(Sum(Number(prompt('Escolha dois numeros para SOMAR: ')), Number(prompt('Escolha o outro:'))))
-//////////////////////////////////////////
-function sub(n1, n2) {
-    return `${n1} - ${n2} = ${n1 - n2}`
-}
-console.log(sub(prompt('Escolha dois numeros para SUBTRAIR: '), prompt('Escolha o outro:')))
-//////////////////////////////////////////
-const mult = function (n1, n2) {
-    return `${n1} x ${n2} = ${n1 * n2}`
-}
-console.log(mult(prompt('Escolha dois numeros para MULTIPLICAR: '), prompt('Escolha o outro:')))
-/////////////////////////////////////////
-const div = (n1, n2) => {
-    return `${n1} / ${n2} = ${n1 / n2}`
-}
-console.log(div(prompt('Escolha dois numeros para DIVIDIR: '), prompt('Escolha o outro:')))
+console.log(Sum(Number(prompt('Escolha um número para fazer as operações: ')), Number(prompt('Escolha o outro:'))))
