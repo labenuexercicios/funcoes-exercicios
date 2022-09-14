@@ -23,4 +23,4 @@ const handleTabuada = (numero) => {
     }
 }
 
-handleTabuada(6)
+handleTabuada(5)
