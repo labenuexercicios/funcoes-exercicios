@@ -29,10 +29,9 @@ nome("Aline")
 const tabuada = (tabuadaDe6) => {
     let seis = 6
     let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-        for( let i in numeros){
-         console.log(seis * numeros[i])
-     }
+    for (let i in numeros) {
+        console.log(seis * numeros[i])
+    }
 }
-console.log(tabuada())
-
+tabuada()
 
