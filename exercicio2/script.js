@@ -19,3 +19,8 @@ function pair(numb){
 }
 
 console.log(pair(22)) //É PAR!
+///////////////////////////////////////////////////////////////
+function tamStr(word){
+    return `${word.toUpperCase()} tem ${word.length} letras!` //A palavra olá tem 3 letras
+}
+console.log(tamStr('olá'))
