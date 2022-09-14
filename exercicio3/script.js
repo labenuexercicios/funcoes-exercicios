@@ -1,6 +1,7 @@
 
 let so1 = +prompt("Digite o primeiro número")
 let so2 = +prompt("Digite o segundo número")
+
 //soma
 const soma = (som1,som2) => som1+som2
 
@@ -20,3 +21,5 @@ console.log(multiplicacao(so1,so2))
 const divisao = (div1,div2) => div1/div2
 
 console.log(divisao(so1,so2))
+
+
