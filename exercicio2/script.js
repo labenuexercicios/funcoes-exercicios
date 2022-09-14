@@ -4,26 +4,26 @@
 
 function operacao(num1, num2) {
     const soma = num1 + num2
-    console.log(soma)
+    console.log("Letra a:", soma)
 }
 operacao(3, 8)
 
 //b) Uma função que recebe 2 números e imprime um booleano que informa se o primeiro número é **maior ou igual** ao segundo.
 
 function operacao2(num1, num2) {
-    if(num1 >= num2){
-        console.log(true)
+    if (num1 >= num2) {
+        console.log("Letra b:", true)
     }
 }
-operacao2(6,3)
+operacao2(6, 3)
 
 //c) Uma função que receba um número e imprima se ele é par ou não
 
-function operacao3(num1){
-    if(num1 %2 === 0){
-        console.log(`O número ${num1} é par.`)
-    }else{
-        console.log(`O número ${num1} não é par.`)
+function operacao3(num1) {
+    if (num1 % 2 === 0) {
+        console.log(`Letra c: O número ${num1} é par.`)
+    } else {
+        console.log(`Letra c: O número ${num1} não é par.`)
     }
 }
 operacao3(6)
@@ -32,8 +32,6 @@ operacao3(6)
 
 function mensagem() {
     const mensagemRecebida = prompt("Digite uma mensagem positiva")
-    mensagemRecebida.toUpperCase
-    console.log(`A mensagem " ${mensagemRecebida.toUpperCase()} " tem ${mensagemRecebida.length} letras.`)
-   
-} 
+    console.log(`Letra d: A mensagem " ${mensagemRecebida.toUpperCase()} " tem ${mensagemRecebida.length} letras.`)
+}
 mensagem()

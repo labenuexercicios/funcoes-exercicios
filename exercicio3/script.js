@@ -16,6 +16,8 @@ function operacaoDivisao(item1, item2) {
     return item1 / item2
 }
 
+//Em seguida, peça para o usuário inserir dois números e chame essas 4 funções com esses valores inputados pelo usuário sendo o argumento. Por fim, imprima no console o resultado das operações
+
 const pergunta1 = Number(prompt("Digite um número"))
 const pergunta2 = Number(prompt("Digite outro número"))
 
