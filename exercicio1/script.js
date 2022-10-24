@@ -20,7 +20,7 @@ console.log(hello('Ruan'));
 
 const multiplicationTable = () => {
     for(let i = 1; i <= 10; i++) {
-        console.log(6 * i);
+        console.log(`Tabuada de 6x${i}: ${6 * i}`);
     }
 }
 
