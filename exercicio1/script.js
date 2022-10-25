@@ -42,3 +42,4 @@ const recebeNumeros = (numero) => {
 }
 
 console.log(recebeNumeros(14))
+    //

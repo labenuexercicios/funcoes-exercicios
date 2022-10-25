@@ -33,3 +33,4 @@ function analisaTexto(texto) {
 }
 
 analisaTexto("Um gato comeu o camundongo")
+    //
