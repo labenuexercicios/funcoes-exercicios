@@ -13,10 +13,10 @@ function multiplicationTable() {
 multiplicationTable(); */
 
 const hello = (name) => {
-    return `Hello, ${name}!`;
-}
+  return `Hello, ${name}!`;
+};
 
-console.log(hello('Ruan'));
+console.log(hello("Ruan"));
 
 const multiplicationTable = () => {
     for(let i = 1; i <= 10; i++) {
