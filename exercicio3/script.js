@@ -33,7 +33,7 @@ console.log(resultadoMultiplicacao)
 
 const divisao = (num1, num2) => {
     const dividir = num1 / num2
-    return `O valor da multiplicação de ${num1} e ${num2} é ${dividir}`
+    return `O valor da divisão de ${num1} e ${num2} é ${dividir}`
 }
 const resultadoDivisao = divisao(primeiroNumero, segundoNumero)
 console.log(resultadoDivisao)
