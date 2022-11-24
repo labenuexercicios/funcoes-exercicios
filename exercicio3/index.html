@@ -1,13 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Exercício 3</title>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/calculadora.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+    <title>CALCULADORA</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size:16 px;
+    font-family: 'Quicksand' ,  sans-serif;
+}
+body{background-image: url('./../assets/img/gold__bg01.png');
+    background-size: cover;
+    height: 100%;
+    max-height: 100vh;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+header{
+    background-color: #fff193;
+    color: #021125;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    border: 2px solid #000000;
+    border-radius: 55px;
+}
+
+main{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    background-color: crimson;
+    padding: 2rem;
+    align-self: center;
+}
+.calculator {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 400px;
+    background-color: chartreuse;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.calculator-screen {
+    width: 100%;
+    height: 80px;
+    border: none;
+    background-color: #252525;
+    color: #fff;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+button {
+    height: 60px;
+    font-size: 2rem!important;
+    border-radius: 15px;
+    background-color: cyan;
+}
+
+.equal-sign {
+    height: 98%;
+    grid-area: 2 / 4 / 6 / 5;
+}
+
+.calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+}
+    </style>
 </head>
 
 <body>
+
+    <header class="id00">
+        <h1 class="title">CALCULADORA </h1>
+        <p class="title__description">LABENU CONWAY CALCULADORA!</p>
+    </header>
+    <main>
+
+
+        <div class="calculator card">
+
+            <div class="previous" data-previous>
+                
+            </div>
+            <input data-current type="text" class="calculator-screen z-depth-1" value="" disabled id="id00" />
+
+            <div class="calculator-keys">
+
+                <button type="button" data-operation class="operator btn btn-info" value="+" id="idA">+</button>
+                <button type="button" data-operation class="operator btn btn-info" value="-" id="idB">-</button>
+                <button type="button" data-operation class="operator btn btn-info" value="*" id="idC">&times;</button>
+                <button type="button" data-operation class="operator btn btn-info" value="/" id="idD">&divide;</button>
+
+                <button type="button" data-number value="7" class="btn btn-light waves-effect" id="id07">7</button>
+                <button type="button" data-number value="8" class="btn btn-light waves-effect" id="id08">8</button>
+                <button type="button" data-number value="9" class="btn btn-light waves-effect" id="id09">9</button>
+ 
+ 
+     <button type="button" data-number value="4" class="btn btn-light waves-effect" id="id04">4</button>
+     <button type="button" data-number value="5" class="btn btn-light waves-effect" id="id05">5</button>
+     <button type="button" data-number value="6" class="btn btn-light waves-effect" id="id06">6</button>
+ 
+ 
+     <button type="button" data-number value="1" class="btn btn-light waves-effect" id="id01">1</button>
+     <button type="button" data-number value="2" class="btn btn-light waves-effect" id="id02">2</button>
+     <button type="button" data-number value="3" class="btn btn-light waves-effect" id="id03">3</button>
+ 
+ 
+     <button type="button" data-number  value="0" class="btn btn-light waves-effect" id="id0">0</button>
+     <button type="button"  data-number class="decimal function btn btn-secondary" value="." id="idE">.</button>
+     <button type="button" data-allclear class="all-clear function btn btn-danger btn-sm" value="all-clear"
+         id="idClear">AC</button>
+     <button type="button" data-equal class="equal-sign operator btn btn-default" value="=" id="idRes">=</button>
+ </div>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
 
 </body>
 
