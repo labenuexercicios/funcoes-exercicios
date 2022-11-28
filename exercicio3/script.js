@@ -16,7 +16,7 @@ function subtracao (n1,n2){
 }
 function multiplicacao (n1,n2){
     let calculo = n1*n2
-    return(`Operação de multiplicação dos números inseridos: ${n1}*${n2}=${calculo}`)
+    return(`Operação de multiplicação dos números inseridos: ${n1}*${n2}=${calculo}`), n1
 }
 function divisao (n1,n2){
     let calculo = n1/n2
