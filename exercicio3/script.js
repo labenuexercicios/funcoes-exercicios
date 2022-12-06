@@ -26,23 +26,23 @@ d) Finalmente, crear variables para recibir el retorno de cada una de las funcio
  
  somaOperacional(inserirNumero,inserirNumeros);
  
- function multiplicacaOperacional(a,b){
-     const multiplicacao = a * b
+ function multiplicacaOperacional(inserirNumero,b){
+     const multiplicacao = inserirNumero * inserirNumeros
          console.log(multiplicacao)
      }
  multiplicacaOperacional(inserirNumero, inserirNumeros);
  
  
- function divisaoOperacional(a,b){
-     const divisao = a / b
+ function divisaoOperacional(inserirNumero,inserirNumeros){
+     const divisao = inserirNumero / inserirNumeros
          console.log(divisao)
      }
  divisaoOperacional(inserirNumero, inserirNumeros);
  
  
  
- function subtracaoOperacional(a,b){
-     const subtracao = a - b
+ function subtracaoOperacional(inserirNumero,inserirNumeros){
+     const subtracao = inserirNumero - inserirNumeros
        console.log(subtracao)
      }
  subtracaoOperacional(inserirNumero,inserirNumeros);
