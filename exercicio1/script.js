@@ -5,6 +5,7 @@ const imprimirNome = (nome) => {
 //imprimirNome('Vinicius')
 
 const tabuada = (numero) => {
+    // Faz a tabuada do número informado e mostra no console
     console.log(`------------ Tabuada do: ${numero} ----------`)
     console.log(`------- ${numero} x 1 = ${numero*1} ---------`)
     console.log(`------- ${numero} x 2 = ${numero*2} ---------`)
@@ -21,6 +22,7 @@ const tabuada = (numero) => {
 }
 
 const tabuadaFor = (numero) => {
+    // Faz a tabuada do número informado utilizando o for e mostra no console
     console.log(`------------ Tabuada do: ${numero} ----------`)
     for (let i = 0; i <=10; i ++) {
         console.log(`------- ${numero} x 1 = ${numero*i} ---------`)
