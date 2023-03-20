@@ -17,7 +17,7 @@
 //     console.log("10 *" , numero , "=" , 10 * numero)
 //  }
 
-
+// oi
 
     const imprimeNome = (nome) =>{
         console.log("Olá", nome)

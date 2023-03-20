@@ -22,7 +22,7 @@ function parOuImpar(numeroTal){
 }
 
 parOuImpar(10)
-
+// oi
 // Uma função que recebe um salário bruto e retorna o salário líquido com desconto de 10%, referente ao INSS.
 
 function salarioComDesconto(salario){

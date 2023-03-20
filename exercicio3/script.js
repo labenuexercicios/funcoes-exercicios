@@ -53,4 +53,4 @@ console.log(`${numero1} vezes ${numero2} é igual a ${resultadoMult}`)
 console.log(`${numero1} dividido por ${numero2} é igual a ${resultadoDivisao}`)
 
 
-
+// oi
