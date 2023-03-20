@@ -12,12 +12,13 @@ function whoIsBigger(num1, num2) {
 
 // c) Uma função que recebe um número e imprime no console um booleano informando se o número é par ou não.
 function parOrImpar(num1) {
-    return `O numero é par?: ${num1 % 2 === 0}`;
+    let divissao = num1 % 2 === 0
+    return `O numero é par?: ${divissao}`;
 };
 
 // d) Uma função que recebe um salário bruto e retorna o salário líquido com desconto de 10%, referente ao INSS.
 function calculateSalary(salaryBase) {
-    let salaryTotal = salaryBase + (salaryBase * 0.10);
+    let salaryTotal = salaryBase - (salaryBase * 0.10);
     return salaryTotal
 }
 
