@@ -23,9 +23,10 @@ const olaMundo = function (nome) {
     console.log(`Olá, ${nome}!`);
 }
 
-olaMundo("Juliano");
+olaMundo("Bruno Hoffman");
 
 const tabuada = (numero) => {
+    console.log(`Vamos ver a tabuada do número ${numero}`);
     console.log(`${numero} * 1 = `, numero * 1);
     console.log(`${numero} * 2 = `, numero * 2);
     console.log(`${numero} * 3 = `, numero * 3);
@@ -38,4 +39,4 @@ const tabuada = (numero) => {
     console.log(`${numero} * 10 = `, numero * 10);
 }
 
-tabuada(17);
+tabuada(9);
